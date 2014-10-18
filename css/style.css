@@ -1,0 +1,163 @@
+body{
+	background-color: #ffffff;
+	color: #191919;
+	font-family: "Gentium Book Basic", serif;
+}
+.container{
+	width: 695px;
+	margin: auto;
+}
+header{
+	background-image: url("../img/bg-image.jpg");
+	height: 770px;
+	width: auto;
+	color: #ffffff;
+}
+.header-top{
+	padding-top: 560px;
+	
+}
+h1{
+	font-size: 60px
+}
+h2{
+	font-size: 30px;
+	font-style: italic;
+	color: #D7D7D7;
+}
+hr{
+	color: #D7D7D7;
+}
+.header-bottom{
+	font-family: "Open Sans" Arial;
+	padding-top: 20px;
+}
+h3{
+	font-size: 13px;
+	color: #D7D7D7;
+	line-height: 10px;
+	font-weight: 400;
+}
+h4{
+	font-size: 15px;
+	font-weight: 700;
+	display: inline-block;
+}
+header h4:after{
+	display: inline-block;
+	content: " ";
+	width: 28px;
+    height: 28px;
+    margin-bottom: -7px;
+    margin-left: 8px;
+    background: url("../img/author.png") transparent no-repeat;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.right a{
+	color: #ffffff;
+	padding-left: 20px;
+	line-height: 42px;
+}
+.container p{
+	padding-top: 51px;
+	font-family: "Gentium Book Basic", serif;
+	font-size: 22px;
+	line-height: 40px;
+}
+blockquote{
+	color: #626262;
+	font-size: 30px;
+	font-style: italic;
+	padding-top: 51px;
+	text-align: center;
+	font-weight: 400;
+}
+.list{
+	padding-left: 30px;
+}
+.button{
+	text-align: center;
+	padding-top: 51px;
+	padding-bottom: 40px;
+	
+}
+.button a{
+	color: #A8A8A8;
+	text-decoration: none;	
+}
+.button i{
+	display: block;
+	font-size: 20px;
+}
+span{
+	font-family: "Open Sans" Arial;
+	font-size: 12px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.top{
+	background-image: url("../img/footer.jpg");
+	width: 100%;
+	height: 253px;
+	font-size: 12px;
+	text-align: center;
+}
+.top a{
+	color: #2ecc71;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: "Open Sans" Arial;
+	font-weight: 600;
+	line-height: 53px;
+	border: 2px solid #2ecc71; 
+	border-radius: 120px;
+	padding: 0 25px;
+	margin-top: 97px;
+}
+.top a:before{
+    font-family: FontAwesome;
+    padding: 3px;
+}
+.column-1{
+	background-image: url("../img/footer-left.jpg");
+	height: 360px;
+	width: 50%;
+	float: left;
+}
+.column-2{
+	background-image: url("../img/footer-right.jpg");
+	height: 360px;
+	width: 50%;
+	float: right;
+}
+.content{
+	padding-left: 67px;
+	padding-top: 70px;
+}
+.content h4{
+	font-family: "Open San" Arial;
+	font-size: 15px;
+	font-weight: 700;
+	color:#ffffff;
+	text-transform: uppercase;
+}
+.content h3{
+	color: #ffffff;
+	font-family: "Gentium Book Basic", serif;
+	font-size: 35px;
+	padding-top: 58px;
+	
+}
+.content p{
+	color: #d7d7d7;
+	font-family: "Gentium Book Basic", serif;
+	font-size: 30px;
+	font-style: italic;
+	padding-top: 22px;
+}
